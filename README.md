@@ -1,8 +1,16 @@
-Duplicate-Data
+## Duplicate-Data
 This project is designed to parse in a CSV file containing different data entries. This lightweight java
 application will identify possible duplicate entries in the data set. I implemented the Metaphone phonetic
 and Levenshtein character distance algorithms from the Apache library to compare entries for similarity.
 
+## DOWNLOAD AND TEST:
+Using your IDE with Maven installed, create a new a project via a clone or download of my repository. Access
+to a Maven repository is required to build the project with included dependencies in the pom.xml file.
+
+Run Results.java and desired results will output to terminal. To run program with different input file, overwrite
+or replace “Normal.csv” on line 20 of Results.java and include desired file in project directory.
+
+## SUMMARY
 One of the most important decisions to be made in this exercise is to decide on how to compare the data, and
 what tests will indicate duplicates. We must find unique keys and specific fields that can be used to indicate
 possible duplicates. For this particular set of data I saw first and last names and emails as the most telling
