@@ -36,3 +36,7 @@ this dataset it was not necessary and limiting the maximum length would have don
 My program currently requires only one of the tests to pass in order for a record to be deemed a potential
 duplicate, however I can see scenarios where expansion of the search criteria could be useful if too many
 false positives start to filter into our results.
+
+### Editor's Note
+Migrated from [https://github.com/calcuff/Duplicate-Data] to the Maven managed project here. Follow back to
+see any tracked changes.
